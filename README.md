@@ -46,9 +46,23 @@ WhatsApp has no API to start live location from another app, so Voy uses an Andr
 
 ## Installation
 
-1. Download the latest `Voy-x.y.z.apk` from **[the download page](https://github.com/neoruben/Voy/releases/latest)** (under *Assets*).
-2. Open it on your phone. Android will ask you to allow installing from that app (browser or file manager): accept.
-3. Open Voy and follow the steps above.
+Because Voy uses an accessibility service and is installed outside Google Play, Android adds two security checks. Both are expected and you only have to get past them once.
+
+1. **Download** the latest `Voy-x.y.z.apk` from **[the download page](https://github.com/neoruben/Voy/releases/latest)** (under *Assets*).
+2. **If Google Play Protect says "App blocked to protect your device"**, temporarily turn off app scanning:
+   - Open **Play Store** → your profile picture → **Play Protect** → ⚙️.
+   - Turn off **Scan apps with Play Protect**.
+   - Open the APK again and install it (if Android asks to allow installing from your browser or file manager, accept).
+   - **Turn Play Protect scanning back on** right away.
+3. **Turn on the service.** Open Voy and tap **Open Accessibility settings**, then turn on **Voy**.
+   If Android shows **"Access to the app has been denied"** / *Controlled by restricted settings*:
+   - Close the message.
+   - Go to **Settings → Apps → Voy**, tap **⋮** (top right) → **Allow restricted settings** and confirm with your fingerprint or PIN.
+   - Go back to **Settings → Accessibility → Voy** and turn it on.
+   - If the ⋮ option doesn't appear, make sure Android's *Advanced Protection* is off.
+4. **Pick a contact**, choose the duration and tap **Add icon**.
+
+Updates signed with the same key install over the previous version; you won't need to repeat steps 2 and 3. If you previously installed a build made with Android Studio, uninstall it first.
 
 Requires Android 8.0 or newer.
 
@@ -113,9 +127,23 @@ WhatsApp no tiene ninguna API para iniciar la ubicación en tiempo real desde ot
 
 **Instalación**
 
-1. Descarga el último `Voy-x.y.z.apk` desde **[la página de descarga](https://github.com/neoruben/Voy/releases/latest)** (en *Assets*).
-2. Ábrelo en el móvil y acepta instalar desde esa app (navegador o gestor de archivos).
-3. Abre Voy y sigue los pasos de arriba.
+Como Voy usa un servicio de accesibilidad y se instala fuera de Google Play, Android añade dos controles de seguridad. Es normal y solo hay que pasarlos una vez.
+
+1. **Descarga** el último `Voy-x.y.z.apk` desde **[la página de descarga](https://github.com/neoruben/Voy/releases/latest)** (en *Assets*).
+2. **Si Google Play Protect dice "Aplicación bloqueada para proteger tu dispositivo"**, desactiva un momento el análisis:
+   - Abre **Play Store** → tu foto de perfil → **Play Protect** → ⚙️.
+   - Desactiva **Analizar aplicaciones con Play Protect**.
+   - Vuelve a abrir la APK e instálala (si Android pide permitir instalar desde el navegador o el gestor de archivos, acepta).
+   - **Vuelve a activar el análisis** enseguida.
+3. **Activa el servicio.** Abre Voy, pulsa **Abrir ajustes de Accesibilidad** y activa **Voy**.
+   Si sale **"Se ha denegado el acceso a la aplicación"** / *Controlada por ajustes restringidos*:
+   - Cierra el aviso.
+   - Ve a **Ajustes → Aplicaciones → Voy**, pulsa **⋮** (arriba a la derecha) → **Permitir ajustes restringidos** y confirma con tu huella o PIN.
+   - Vuelve a **Ajustes → Accesibilidad → Voy** y actívalo.
+   - Si no aparece la opción ⋮, comprueba que la *Protección avanzada* de Android está desactivada.
+4. **Elige un contacto**, la duración y pulsa **Crear icono**.
+
+Las actualizaciones firmadas con la misma clave se instalan encima de la versión anterior; no hace falta repetir los pasos 2 y 3. Si antes instalaste una versión compilada con Android Studio, desinstálala primero.
 
 Requiere Android 8.0 o superior.
 
