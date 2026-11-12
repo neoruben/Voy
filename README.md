@@ -29,14 +29,14 @@ Free and open-source Android app.
 
 ## How it works
 
-<p align="center"><img src="screenshots/main-screen.jpg" width="240" alt="Voy main screen"></p>
+<p align="center"><img src="screenshots/main-screen-en.jpg" width="240" alt="Voy main screen"></p>
 
 1. **Turn on the service.** Open Voy and tap **Open Accessibility settings**. Find **Voy** under *Downloaded apps* and turn on **Use Voy**.
    If the switch is greyed out (Android 13 and newer, for apps installed outside Google Play): *Settings → Apps → Voy → ⋮ → Allow restricted settings*, then try again.
 
    <p align="center">
-     <img src="screenshots/accessibility-list.jpg" width="220" alt="Voy in Settings → Accessibility">
-     <img src="screenshots/accessibility-enable.jpg" width="220" alt="Turning on Use Voy">
+     <img src="screenshots/accessibility-list-en.jpg" width="220" alt="Voy in Settings → Accessibility">
+     <img src="screenshots/accessibility-enable-en.jpg" width="220" alt="Turning on Use Voy">
    </p>
 2. **Pick a contact** with **Pick from my contacts**, or type the name and phone number.
 3. **Choose the duration** and tap **Add icon**. Confirm in the dialog and place the icon on your home screen.

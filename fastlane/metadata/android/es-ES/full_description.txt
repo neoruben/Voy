@@ -1,0 +1,12 @@
+<p>Voy comparte tu ubicación en tiempo real por WhatsApp de un solo toque desde la pantalla de inicio.</p>
+<p>Añade un icono por contacto. Al tocarlo, Voy abre el chat y pulsa por ti <i>Adjuntar → Ubicación → Compartir ubicación en tiempo real → duración → Enviar</i>, y vuelve a la pantalla de inicio.</p>
+<p><b>Funciones</b></p>
+<ul>
+<li>Un icono por contacto, con su foto o sus iniciales</li>
+<li>Comparte durante 15 minutos, 1 hora u 8 horas</li>
+<li>Elige el contacto de tu agenda o escribe el número</li>
+<li>Funciona con WhatsApp y WhatsApp Business en español, inglés, italiano y francés</li>
+<li>Sin anuncios, sin rastreo, sin servidores</li>
+</ul>
+<p><b>Cómo funciona:</b> WhatsApp no tiene ninguna API para iniciar la ubicación en tiempo real desde otra app, así que Voy usa un servicio de accesibilidad de Android que localiza los botones de WhatsApp en pantalla y los pulsa. Solo actúa dentro de WhatsApp y solo cuando tocas uno de sus iconos. El móvil tiene que estar desbloqueado.</p>
+<p>App no oficial, sin relación con WhatsApp ni Meta.</p>

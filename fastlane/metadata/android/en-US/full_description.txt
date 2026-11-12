@@ -1,0 +1,12 @@
+<p>Voy lets you share your live location on WhatsApp with one tap from your home screen.</p>
+<p>Add an icon for each contact. When you tap it, Voy opens the chat and taps <i>Attach → Location → Share live location → duration → Send</i> for you, then returns to the home screen.</p>
+<p><b>Features</b></p>
+<ul>
+<li>One home-screen icon per contact, with their photo or initials</li>
+<li>Share for 15 minutes, 1 hour or 8 hours</li>
+<li>Pick contacts from your address book or type the number</li>
+<li>Works with WhatsApp and WhatsApp Business in English, Spanish, Italian and French</li>
+<li>No ads, no tracking, no servers</li>
+</ul>
+<p><b>How it works:</b> WhatsApp has no API to start live location from another app, so Voy uses an Android accessibility service that finds WhatsApp's buttons on screen and taps them. It only acts inside WhatsApp and only when you tap one of its icons. The phone must be unlocked.</p>
+<p>Unofficial app, not affiliated with WhatsApp or Meta.</p>
