@@ -1,4 +1,6 @@
-# 📍 Voy
+<p align="center"><img src="assets/icon.svg" width="112" alt="Voy icon"></p>
+
+<h1 align="center">Voy</h1>
 
 **Your live location on WhatsApp, in one tap.** Add an icon for a contact to your home screen; tap it and Voy starts sharing your live location with that person on WhatsApp.
 
