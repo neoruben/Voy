@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a11y_description">Cuando tocas un icono de Voy, pulsa por ti los botones de WhatsApp para compartir tu ubicación en tiempo real con ese contacto. Solo actúa dentro de WhatsApp y solo cuando tú lo pides.</string>
+    <string name="subtitle">Tu ubicación en directo por WhatsApp, de un toque</string>
+    <string name="step1_title">Activar el servicio</string>
+    <string name="status_on">✅ Servicio activado</string>
+    <string name="status_off">❌ Desactivado. Actívalo en Accesibilidad → Voy.\n¿Sale gris? Ajustes → Apps → Voy → ⋮ → Permitir ajustes restringidos.</string>
+    <string name="open_a11y">Abrir ajustes de Accesibilidad</string>
+    <string name="step2_title">Contacto</string>
+    <string name="pick_contact">📇  Elegir de mis contactos</string>
+    <string name="or_type">o escríbelo a mano:</string>
+    <string name="hint_name">Nombre (aparece bajo el icono)</string>
+    <string name="hint_phone">Teléfono: 600 123 456 o +34 600 123 456</string>
+    <string name="step3_title">Durante cuánto tiempo</string>
+    <string name="dur_15">15 min</string>
+    <string name="dur_1h">1 hora</string>
+    <string name="dur_8h">8 horas</string>
+    <string name="create_icon">Crear icono</string>
+    <string name="try_now">Probar ahora</string>
+    <string name="err_phone">Revisa el teléfono</string>
+    <string name="err_no_pin">Tu launcher no permite crear accesos directos</string>
+    <string name="err_no_contacts">No encuentro la app de Contactos</string>
+    <string name="shortcut_long">Ubicación en directo a %1$s (%2$s)</string>
+    <string name="share_no_number">Este icono no tiene número configurado</string>
+    <string name="share_enable_service">Activa \"Voy\" en Accesibilidad y vuelve a pulsar el icono</string>
+    <string name="share_no_whatsapp">No encuentro WhatsApp instalado</string>
+    <string name="svc_sharing">📍 Compartiendo ubicación con %s</string>
+    <string name="svc_failed">Voy no ha podido terminar. Hazlo a mano.</string>
+    <string name="widget_description">Comparte tu ubicación en directo con un contacto de un toque</string>
+    <string name="credits">v%1$s · Creado por Rubén</string>
+    <string name="kofi">☕ Invítame a un café</string>
+</resources>

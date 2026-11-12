@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a11y_description">Quando tocchi un\'icona di Voy, preme per te i pulsanti di WhatsApp per condividere la tua posizione in tempo reale con quel contatto. Agisce solo dentro WhatsApp e solo quando lo chiedi tu.</string>
+    <string name="subtitle">La tua posizione in tempo reale su WhatsApp, con un tocco</string>
+    <string name="step1_title">Attiva il servizio</string>
+    <string name="status_on">✅ Servizio attivo</string>
+    <string name="status_off">❌ Disattivato. Attiva Voy in Accessibilità.\nÈ grigio? Impostazioni → App → Voy → ⋮ → Consenti impostazioni con limitazioni.</string>
+    <string name="open_a11y">Apri impostazioni Accessibilità</string>
+    <string name="step2_title">Contatto</string>
+    <string name="pick_contact">📇  Scegli dai contatti</string>
+    <string name="or_type">oppure scrivilo a mano:</string>
+    <string name="hint_name">Nome (appare sotto l\'icona)</string>
+    <string name="hint_phone">Telefono con prefisso, es. +39 312 345 6789</string>
+    <string name="step3_title">Per quanto tempo</string>
+    <string name="dur_15">15 min</string>
+    <string name="dur_1h">1 ora</string>
+    <string name="dur_8h">8 ore</string>
+    <string name="create_icon">Crea icona</string>
+    <string name="try_now">Prova ora</string>
+    <string name="err_phone">Controlla il numero di telefono</string>
+    <string name="err_no_pin">Il tuo launcher non consente di aggiungere scorciatoie</string>
+    <string name="err_no_contacts">App Contatti non trovata</string>
+    <string name="shortcut_long">Posizione in tempo reale a %1$s (%2$s)</string>
+    <string name="share_no_number">Questa icona non ha un numero</string>
+    <string name="share_enable_service">Attiva \"Voy\" in Accessibilità e tocca di nuovo l\'icona</string>
+    <string name="share_no_whatsapp">WhatsApp non è installato</string>
+    <string name="svc_sharing">📍 Posizione condivisa con %s</string>
+    <string name="svc_failed">Voy non è riuscito a finire. Fallo a mano.</string>
+    <string name="widget_description">Condividi la tua posizione in tempo reale con un contatto in un tocco</string>
+    <string name="credits">v%1$s · Creato da Rubén</string>
+    <string name="kofi">☕ Offrimi un caffè</string>
+</resources>

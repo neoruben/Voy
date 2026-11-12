@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a11y_description">Quand vous touchez une icône Voy, elle appuie pour vous sur les boutons de WhatsApp pour partager votre position en direct avec ce contact. Elle n\'agit que dans WhatsApp et seulement quand vous le demandez.</string>
+    <string name="subtitle">Votre position en direct sur WhatsApp, en un geste</string>
+    <string name="step1_title">Activer le service</string>
+    <string name="status_on">✅ Service activé</string>
+    <string name="status_off">❌ Désactivé. Activez Voy dans Accessibilité.\nGrisé ? Paramètres → Applis → Voy → ⋮ → Autoriser les paramètres restreints.</string>
+    <string name="open_a11y">Ouvrir les paramètres d\'accessibilité</string>
+    <string name="step2_title">Contact</string>
+    <string name="pick_contact">📇  Choisir dans mes contacts</string>
+    <string name="or_type">ou saisissez-le :</string>
+    <string name="hint_name">Nom (affiché sous l\'icône)</string>
+    <string name="hint_phone">Téléphone avec indicatif, ex. +33 6 12 34 56 78</string>
+    <string name="step3_title">Pendant combien de temps</string>
+    <string name="dur_15">15 min</string>
+    <string name="dur_1h">1 heure</string>
+    <string name="dur_8h">8 heures</string>
+    <string name="create_icon">Créer l\'icône</string>
+    <string name="try_now">Essayer maintenant</string>
+    <string name="err_phone">Vérifiez le numéro de téléphone</string>
+    <string name="err_no_pin">Votre lanceur ne permet pas d\'ajouter des raccourcis</string>
+    <string name="err_no_contacts">Application Contacts introuvable</string>
+    <string name="shortcut_long">Position en direct à %1$s (%2$s)</string>
+    <string name="share_no_number">Cette icône n\'a pas de numéro</string>
+    <string name="share_enable_service">Activez \"Voy\" dans Accessibilité et touchez à nouveau l\'icône</string>
+    <string name="share_no_whatsapp">WhatsApp n\'est pas installé</string>
+    <string name="svc_sharing">📍 Position partagée avec %s</string>
+    <string name="svc_failed">Voy n\'a pas pu terminer. Faites-le à la main.</string>
+    <string name="widget_description">Partagez votre position en direct avec un contact en un geste</string>
+    <string name="credits">v%1$s · Créé par Rubén</string>
+    <string name="kofi">☕ Offrez-moi un café</string>
+</resources>

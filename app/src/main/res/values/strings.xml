@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Voy</string>
+    <string name="a11y_description">When you tap a Voy icon, it presses the WhatsApp buttons for you to share your live location with that contact. It only acts inside WhatsApp and only when you ask it to.</string>
+    <string name="subtitle">Your live location on WhatsApp, in one tap</string>
+    <string name="step1_title">Turn on the service</string>
+    <string name="status_on">✅ Service on</string>
+    <string name="status_off">❌ Service off. Turn on Voy in Accessibility.\nGreyed out? Settings → Apps → Voy → ⋮ → Allow restricted settings.</string>
+    <string name="open_a11y">Open Accessibility settings</string>
+    <string name="step2_title">Contact</string>
+    <string name="pick_contact">📇  Pick from my contacts</string>
+    <string name="or_type">or type it in:</string>
+    <string name="hint_name">Name (shown under the icon)</string>
+    <string name="hint_phone">Phone with country code, e.g. +44 7700 900123</string>
+    <string name="step3_title">For how long</string>
+    <string name="dur_15">15 min</string>
+    <string name="dur_1h">1 hour</string>
+    <string name="dur_8h">8 hours</string>
+    <string name="create_icon">Add icon</string>
+    <string name="try_now">Try it now</string>
+    <string name="err_phone">Check the phone number</string>
+    <string name="err_no_pin">Your launcher does not allow adding shortcuts</string>
+    <string name="err_no_contacts">Contacts app not found</string>
+    <string name="shortcut_long">Live location to %1$s (%2$s)</string>
+    <string name="share_no_number">This icon has no phone number</string>
+    <string name="share_enable_service">Turn on \"Voy\" in Accessibility and tap the icon again</string>
+    <string name="share_no_whatsapp">WhatsApp is not installed</string>
+    <string name="svc_sharing">📍 Sharing location with %s</string>
+    <string name="svc_failed">Voy couldn\'t finish. Please do it by hand.</string>
+    <string name="widget_description">Share your live location with a contact in one tap</string>
+    <string name="credits">v%1$s · Created by Rubén</string>
+    <string name="kofi">☕ Buy me a coffee</string>
+</resources>
