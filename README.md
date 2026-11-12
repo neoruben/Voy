@@ -16,14 +16,6 @@ Free and open-source Android app.
 
 *[Versión en español más abajo](#-en-español)*
 
-## Screenshots
-
-<p align="center">
-  <img src="screenshots/main-screen.jpg" width="220" alt="Main screen: turn on the service, pick a contact and a duration">
-  <img src="screenshots/accessibility-list.jpg" width="220" alt="Voy in Settings → Accessibility">
-  <img src="screenshots/accessibility-enable.jpg" width="220" alt="Turning on the Voy service">
-</p>
-
 ## Features
 
 - One home-screen icon per contact, with the contact's photo (or initials) and the label *Voy + name*.
@@ -35,8 +27,15 @@ Free and open-source Android app.
 
 ## How it works
 
+<p align="center"><img src="screenshots/main-screen.jpg" width="240" alt="Voy main screen"></p>
+
 1. **Turn on the service.** Open Voy and tap **Open Accessibility settings**. Find **Voy** under *Downloaded apps* and turn on **Use Voy**.
    If the switch is greyed out (Android 13 and newer, for apps installed outside Google Play): *Settings → Apps → Voy → ⋮ → Allow restricted settings*, then try again.
+
+   <p align="center">
+     <img src="screenshots/accessibility-list.jpg" width="220" alt="Voy in Settings → Accessibility">
+     <img src="screenshots/accessibility-enable.jpg" width="220" alt="Turning on Use Voy">
+   </p>
 2. **Pick a contact** with **Pick from my contacts**, or type the name and phone number.
 3. **Choose the duration** and tap **Add icon**. Confirm in the dialog and place the icon on your home screen.
 4. **Tap the icon** whenever you want to share your location. You'll see WhatsApp's menus flash by for 2–3 seconds; then you're back on the home screen and a message confirms it.
@@ -95,8 +94,15 @@ Open the project in Android Studio and press **Run**.
 
 **Cómo funciona**
 
-1. **Activa el servicio.** Abre Voy y pulsa **Abrir ajustes de Accesibilidad**. Busca **Voy** en *Aplicaciones descargadas* y activa **Usar Voy** (ver capturas de arriba).
+<p align="center"><img src="screenshots/main-screen.jpg" width="240" alt="Pantalla principal de Voy"></p>
+
+1. **Activa el servicio.** Abre Voy y pulsa **Abrir ajustes de Accesibilidad**. Busca **Voy** en *Aplicaciones descargadas* y activa **Usar Voy**.
    Si el interruptor sale gris (Android 13 o superior, con apps instaladas fuera de Google Play): *Ajustes → Apps → Voy → ⋮ → Permitir ajustes restringidos* y vuelve a intentarlo.
+
+   <p align="center">
+     <img src="screenshots/accessibility-list.jpg" width="220" alt="Voy en Ajustes → Accesibilidad">
+     <img src="screenshots/accessibility-enable.jpg" width="220" alt="Activar Usar Voy">
+   </p>
 2. **Elige un contacto** con **Elegir de mis contactos**, o escribe el nombre y el teléfono.
 3. **Elige la duración** y pulsa **Crear icono**. Confirma en el aviso y coloca el icono en la pantalla de inicio.
 4. **Toca el icono** cuando quieras compartir tu ubicación. Verás pasar los menús de WhatsApp durante 2–3 segundos; luego vuelves a la pantalla de inicio y un aviso lo confirma.
