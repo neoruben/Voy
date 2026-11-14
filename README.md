@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/neoruben/Voy/releases/latest"><img src="https://img.shields.io/badge/⬇_Download_the_app-APK_for_Android-00a884?style=for-the-badge" alt="Download the app (APK for Android)" height="44"></a>
   &nbsp;
-  <a href="https://ko-fi.com/onerate"><img src="https://img.shields.io/badge/☕_Buy_me_a_coffee-Ko--fi-f5c518?style=for-the-badge&labelColor=0e1726" alt="Buy me a coffee on Ko-fi" height="44"></a>
+  <a href="https://ko-fi.com/neoruben"><img src="https://img.shields.io/badge/☕_Buy_me_a_coffee-Ko--fi-f5c518?style=for-the-badge&labelColor=0e1726" alt="Buy me a coffee on Ko-fi" height="44"></a>
 </p>
 
 <p align="center"><b>👉 <a href="https://github.com/neoruben/Voy/releases/latest">Download Voy</a></b> — open the page, tap the <code>Voy-x.y.z.apk</code> file under <i>Assets</i> and install it on your phone.</p>
@@ -94,7 +94,7 @@ Open the project in Android Studio and press **Run**.
 
 ## 🇪🇸 En español
 
-**👉 [Descargar Voy](https://github.com/neoruben/Voy/releases/latest)** · ☕ [Invítame a un café](https://ko-fi.com/onerate)
+**👉 [Descargar Voy](https://github.com/neoruben/Voy/releases/latest)** · ☕ [Invítame a un café](https://ko-fi.com/neoruben)
 
 **Voy** comparte tu ubicación en tiempo real por WhatsApp **de un solo toque**. Añades a la pantalla de inicio un icono por contacto; al tocarlo, Voy empieza a compartir tu ubicación en directo con esa persona. Es una app para Android, gratuita y de código abierto.
 

@@ -163,7 +163,7 @@ class MainActivity : Activity() {
             paintFlags = paintFlags or android.graphics.Paint.UNDERLINE_TEXT_FLAG
             setOnClickListener {
                 try {
-                    startActivity(Intent(Intent.ACTION_VIEW, android.net.Uri.parse("https://ko-fi.com/onerate")))
+                    startActivity(Intent(Intent.ACTION_VIEW, android.net.Uri.parse("https://ko-fi.com/neoruben")))
                 } catch (_: Exception) {
                 }
             }
