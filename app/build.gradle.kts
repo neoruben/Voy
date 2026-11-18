@@ -30,8 +30,8 @@ android {
         applicationId = "com.voyapp"
         minSdk = 26
         targetSdk = 35
-        versionCode = 3
-        versionName = "1.0.2"
+        versionCode = 4
+        versionName = "1.1.0"
     }
 
     buildTypes {
@@ -52,4 +52,5 @@ android {
 
 dependencies {
     implementation("androidx.core:core-ktx:1.15.0")
+    implementation("androidx.car.app:app:1.7.0")
 }

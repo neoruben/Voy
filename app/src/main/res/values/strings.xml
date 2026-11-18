@@ -29,5 +29,5 @@
     <string name="svc_failed">Voy couldn\'t finish. Please do it by hand.</string>
     <string name="widget_description">Share your live location with a contact in one tap</string>
     <string name="credits">v%1$s · Created by Rubén</string>
-    <string name="kofi">☕ Buy me a coffee</string>
+    <string name="car_no_contacts">Add a Voy icon to your phone\'s home screen first</string>
 </resources>

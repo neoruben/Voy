@@ -152,22 +152,30 @@ class MainActivity : Activity() {
             setPadding(0, dp(10), 0, 0)
         }
         footer.addView(TextView(this).apply {
-            text = getString(R.string.credits, version) + "  ·  "
+            text = getString(R.string.credits, version)
             setTextColor(MUTED)
             textSize = 12f
         })
+        // Botón Ko-fi con el mismo estilo que en Kobodroid: fondo coral suave, borde y texto en negrita
         footer.addView(TextView(this).apply {
-            text = getString(R.string.kofi)
-            setTextColor(DARK)
+            text = "☕ Ko-fi"
+            setTextColor(0xFFD9383A.toInt())
             textSize = 12f
-            paintFlags = paintFlags or android.graphics.Paint.UNDERLINE_TEXT_FLAG
+            setTypeface(typeface, android.graphics.Typeface.BOLD)
+            gravity = Gravity.CENTER
+            setPadding(dp(9), 0, dp(9), 0)
+            background = GradientDrawable().apply {
+                setColor(0x29FF5E5B)
+                cornerRadius = dp(8).toFloat()
+                setStroke(dp(1), 0xB3FF5E5B.toInt())
+            }
             setOnClickListener {
                 try {
                     startActivity(Intent(Intent.ACTION_VIEW, android.net.Uri.parse("https://ko-fi.com/neoruben")))
                 } catch (_: Exception) {
                 }
             }
-        })
+        }, LinearLayout.LayoutParams(-2, dp(32)).apply { marginStart = dp(10) })
         col.addView(footer, LinearLayout.LayoutParams(-1, -2))
 
         val fit = FitToScreenLayout(this).apply { addView(col) }

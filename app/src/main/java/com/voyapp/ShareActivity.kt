@@ -26,6 +26,23 @@ class ShareActivity : Activity() {
                 putExtra(EXTRA_NAME, name)
                 putExtra(EXTRA_DURATION, duration)
             }
+
+        /** Abre el chat del contacto en WhatsApp (normal o Business). */
+        fun openChat(ctx: android.content.Context, phone: String): Boolean {
+            val uri = Uri.parse("https://api.whatsapp.com/send?phone=$phone")
+            for (pkg in LiveLocationService.WA_PACKAGES) {
+                try {
+                    ctx.startActivity(
+                        Intent(Intent.ACTION_VIEW, uri)
+                            .setPackage(pkg)
+                            .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                    )
+                    return true
+                } catch (_: ActivityNotFoundException) {
+                }
+            }
+            return false
+        }
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -49,26 +66,10 @@ class ShareActivity : Activity() {
 
             else -> {
                 service.startJob(ShareJob(phone, name, duration))
-                if (!openChat(phone)) toast(getString(R.string.share_no_whatsapp))
+                if (!openChat(this, phone)) toast(getString(R.string.share_no_whatsapp))
             }
         }
         finish()
-    }
-
-    private fun openChat(phone: String): Boolean {
-        val uri = Uri.parse("https://api.whatsapp.com/send?phone=$phone")
-        for (pkg in LiveLocationService.WA_PACKAGES) {
-            try {
-                startActivity(
-                    Intent(Intent.ACTION_VIEW, uri)
-                        .setPackage(pkg)
-                        .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-                )
-                return true
-            } catch (_: ActivityNotFoundException) {
-            }
-        }
-        return false
     }
 
     private fun toast(msg: String) = Toast.makeText(this, msg, Toast.LENGTH_LONG).show()

@@ -26,6 +26,7 @@ Free and open-source Android app.
 - Pick the contact from your address book or type the number by hand (the country code is added automatically).
 - Works with WhatsApp and WhatsApp Business in English, Spanish, Italian and French.
 - App in English, Spanish, Italian and French (follows your phone's language).
+- **Android Auto:** your Voy icons also appear as buttons on the car screen (see below).
 
 ## How it works
 
@@ -66,6 +67,18 @@ Updates signed with the same key install over the previous version; you won't ne
 
 Requires Android 8.0 or newer.
 
+## Android Auto
+
+Open **Voy** on the car screen and you'll see one button for each Voy icon on your phone's home screen (same name, photo and duration). Tap one and Voy shares your live location with that contact, just like the home-screen icon. To add or remove a contact in the car, add or remove its icon on the phone.
+
+Android Auto only shows apps installed from Google Play unless you allow other sources, once:
+
+1. On the phone, open **Settings → Connected devices → Connection preferences → Android Auto**.
+2. Scroll down and tap **Version** about 10 times until developer settings are enabled.
+3. Tap **⋮ → Developer settings** and turn on **Unknown sources** (in some versions: **Application mode → Developer**).
+
+Voy still taps WhatsApp's buttons on the phone, so the phone must be unlocked for it to work.
+
 ## Permissions and privacy
 
 | Permission | Why |
@@ -94,7 +107,11 @@ Open the project in Android Studio and press **Run**.
 
 ## 🇪🇸 En español
 
-**👉 [Descargar Voy](https://github.com/neoruben/Voy/releases/latest)** · ☕ [Invítame a un café](https://ko-fi.com/neoruben)
+<p align="center">
+  <a href="https://github.com/neoruben/Voy/releases/latest"><img src="https://img.shields.io/badge/⬇_Descargar_la_app-APK_para_Android-00a884?style=for-the-badge" alt="Descargar la app (APK para Android)" height="44"></a>
+  &nbsp;
+  <a href="https://ko-fi.com/neoruben" target="_blank"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Support me on Ko-fi" height="44"></a>
+</p>
 
 **Voy** comparte tu ubicación en tiempo real por WhatsApp **de un solo toque**. Añades a la pantalla de inicio un icono por contacto; al tocarlo, Voy empieza a compartir tu ubicación en directo con esa persona. Es una app para Android, gratuita y de código abierto.
 
@@ -107,6 +124,19 @@ Open the project in Android Studio and press **Run**.
 - Duración a elegir: 15 minutos, 1 hora u 8 horas.
 - Elige el contacto de tu agenda o escribe el número a mano (el prefijo del país se añade solo).
 - Funciona con WhatsApp y WhatsApp Business en español, inglés, italiano y francés.
+- **Android Auto:** tus iconos de Voy también salen como botones en la pantalla del coche.
+
+**Android Auto**
+
+Abre **Voy** en la pantalla del coche y verás un botón por cada icono de Voy que tengas en la pantalla de inicio del móvil (mismo nombre, foto y duración). Al tocarlo, Voy comparte tu ubicación en tiempo real con ese contacto, igual que el icono. Para añadir o quitar un contacto en el coche, añade o quita su icono en el móvil.
+
+Android Auto solo muestra apps instaladas desde Google Play, salvo que permitas otras fuentes (una sola vez):
+
+1. En el móvil, abre **Ajustes → Dispositivos conectados → Preferencias de conexión → Android Auto**.
+2. Baja hasta el final y toca **Versión** unas 10 veces hasta que se activen los ajustes de desarrollador.
+3. Pulsa **⋮ → Ajustes de desarrollador** y activa **Fuentes desconocidas** (en algunas versiones: **Modo de aplicación → Desarrollador**).
+
+Voy sigue pulsando los botones de WhatsApp en el móvil, así que el móvil tiene que estar desbloqueado.
 
 **Cómo funciona**
 

@@ -28,5 +28,5 @@
     <string name="svc_failed">Voy no ha podido terminar. Hazlo a mano.</string>
     <string name="widget_description">Comparte tu ubicación en directo con un contacto de un toque</string>
     <string name="credits">v%1$s · Creado por Rubén</string>
-    <string name="kofi">☕ Invítame a un café</string>
+    <string name="car_no_contacts">Primero añade un icono de Voy en la pantalla de inicio del móvil</string>
 </resources>

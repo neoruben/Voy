@@ -28,5 +28,5 @@
     <string name="svc_failed">Voy non è riuscito a finire. Fallo a mano.</string>
     <string name="widget_description">Condividi la tua posizione in tempo reale con un contatto in un tocco</string>
     <string name="credits">v%1$s · Creato da Rubén</string>
-    <string name="kofi">☕ Offrimi un caffè</string>
+    <string name="car_no_contacts">Aggiungi prima un\'icona di Voy alla schermata Home del telefono</string>
 </resources>

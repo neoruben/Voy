@@ -28,5 +28,5 @@
     <string name="svc_failed">Voy n\'a pas pu terminer. Faites-le à la main.</string>
     <string name="widget_description">Partagez votre position en direct avec un contact en un geste</string>
     <string name="credits">v%1$s · Créé par Rubén</string>
-    <string name="kofi">☕ Offrez-moi un café</string>
+    <string name="car_no_contacts">Ajoutez d\'abord une icône Voy sur l\'écran d\'accueil du téléphone</string>
 </resources>
