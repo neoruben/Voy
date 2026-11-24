@@ -1,2 +1,2 @@
-Android Auto: tus iconos de Voy salen como botones en la pantalla del coche.
+Android Auto: todavía no funciona. Se está buscando la manera de añadirlo.
 Nuevo botón de Ko-fi.

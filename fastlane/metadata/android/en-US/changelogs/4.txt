@@ -1,2 +1,2 @@
-Android Auto: your Voy icons appear as buttons on the car screen.
+Android Auto: not working yet. We are trying to find a way to add it.
 New Ko-fi button.
